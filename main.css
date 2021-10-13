@@ -1,0 +1,43 @@
+*{
+	margin: 0em;
+	padding: 0em;
+}
+
+body{
+	font-family: sans-serif;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input{
+	font-size: 1.3em;
+	padding: 4px 4px;
+}
+button{
+	background: grey;
+	font-size: 1.3em;
+	color: #fff;
+	padding: 4px 4px;
+	outline: none;
+	border: none;
+}
+
+tr {
+    display: flex;
+    gap: 4px;
+}
+tr > * {
+	width: 100%;
+}
+th {
+    text-align: center;
+    padding: 1px;
+}
+
+td {
+    text-align: center;
+    padding: 1px;
+}
